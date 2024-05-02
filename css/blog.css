@@ -1,0 +1,58 @@
+/*Combinacion jerarquica*/
+.menu li {
+    list-style: none;
+    display: inline-block;
+    /*margin: 10px; /*Aplica a los 4 lados*/
+
+
+    margin: 5px 15px;
+    /*El primer numero aplica arriba y abajo, el segundo numero aplica derecha e izquierda*/
+
+    /* margin: 10px 20px 30px 40px; /*Se toma los numeros en sentido horario para los lados del elemento
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 40px;
+    */
+
+    border: 3px double black;
+    padding: 5px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.menu {
+    background: #3598A9 ; /*poner color a todo mi espacio y si uso color se pone al contenido del elemento*/
+    padding: 5px 15px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h2 {
+    /*font: bold 14px sans-serif;   segunda forma*/
+
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/*
+.menu, li {
+color:red;
+}
+
+li{
+    background-color: black;
+}
+*/
