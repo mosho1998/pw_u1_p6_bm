@@ -22,9 +22,10 @@
 }
 
 .menu {
-    background: #3598A9 ; /*poner color a todo mi espacio y si uso color se pone al contenido del elemento*/
+    background: #128a6c;
+    /*poner color a todo mi espacio y si uso color se pone al contenido del elemento*/
     padding: 5px 15px;
-    text-align: left;
+    text-align: center;
 }
 
 h1 {
@@ -40,10 +41,64 @@ h2 {
     font-size: 20px;
 }
 
+body {
+    text-align: center;
+    background: rgb(31, 105, 89);
+}
 
+.agrupar {
+    border: 1px solid black;
+    background: #3accb4;
+    width: 900px;
+    margin: 20px auto;
+}
 
+.cabecera {
+    background: rgb(168, 216, 186);
+    border: 10px double #1d2725;
+    padding: 20px;
+}
 
+.seccion {
+    width: 600px;
+    margin: 10px;
+    float: left;
+}
 
+#idarticulo1, #idarticulo2 {
+background: rgb(80, 223, 182);
+border: 1px solid black;
+padding: 20px;
+}
+
+article footer {
+    text-align: right;
+}
+
+.referencias {
+    width: 200px;
+    float: right;
+    margin: 30px 30px;
+    padding-left: 2px;
+}
+
+.pie {
+    /*pie de la pagina debe tener clear: both*/
+    clear: both;
+}
+
+blockquote {
+    border: 10px double black;
+    padding: 5px;
+    background: #6fd377;
+    width: 150px;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+    margin: auto auto;
+}
 
 
 
