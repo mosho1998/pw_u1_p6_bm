@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    /*siempre va a ser fijo*/
+    justify-content: center;
+    /*la propiedad siempre va a ser fija y el valor depende de lo que necesite en este caso es center*/
+    align-items: center;
+    /*coincide con el contenido*/
+}
+
+
+.calculadora {
+    display: grid;
+    /*Esta propiedad grid, a todos los elementos que estan en una lista seguida los prepapara para
+                    que sean desplegados o visualizados como una grilla(cuadricula)*/
+
+    /*grid-template-columns: 75px 75px 75px 75px;*/
+    /*Le dice a los elementos en la grilla cuantas columnas va a tener, al poner 3 valores la grilla tiene 3 columnas*/
+    grid-template-columns: repeat(4, 75px);
+
+
+    /*grid-template-rows: 150px 75px 75px 75px 75px 75px;*/
+    /*Le dice a los elementos en la grilla cuantas filas va a tener*/
+    grid-template-rows: 150px repeat(5, 75px);
+
+    background: rgb(145, 179, 171);
+    padding: 15px;
+    border-radius: 35px;
+
+    box-shadow: 15px 10px 5px 5px rgb(44, 44, 44); /*recibe 4 argumentos es para la sombra, quinto argumento es el color*/
+}
+
+
+.display {
+    grid-column: span 4;
+    /*Se usa para que ocupe 4 espacios*/
+    padding: 15px;
+    background: rgb(57, 102, 102);
+    border-radius: 35px;
+    text-align: right;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 0px 10px rgb(44, 44, 44); 
+    
+
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+button {
+    cursor: pointer; /*da un ountero al pasar por el boton*/
+    margin: 5px;
+    border-radius: 32px;
+    border: none;
+    background: rgb(105, 148, 148);
+    font-size: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(44, 44, 44); 
+}
+
+button:active{ /*Esto es pseudo clase usado para eventos una vez el boton este activo cambia de color es decir al presionar*/
+    background: black;
+}
+
+*{ /*Etiqueta de estilo universal*/
+    color: white;
+}
+
+body {
+    background: bisque;
+}
+
