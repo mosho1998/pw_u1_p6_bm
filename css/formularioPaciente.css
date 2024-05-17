@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 3px 2px;
+    font-size: 15px;
+    color: rgb(26, 22, 22);
+}
+
+input {
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid rgb(88, 48, 48);
+    background: none;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(207, 192, 192);
+}
+
+h2 {
+    margin: 10px 2px;
+    width: 180px;
+    color: rgb(59, 59, 59);
+    border-bottom: 3px solid rgb(49, 45, 45);
+}
+
+.form {
+   justify-content: center;
+width: 350px;
+height: 380px;
+background: rgb(163, 158, 158);
+border-radius: 10px;
+padding: 25px 50px;
+box-shadow: 0 0 40px 5px rgb(80, 78, 78);
+border: double 10px;
+}
+
