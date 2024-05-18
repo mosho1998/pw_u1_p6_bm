@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p::before {
+    content: attr(type);
+    display: block;
+}
+
+input {
+    width: 300px;
+    border: solid rgb(138, 131, 131);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    border-bottom: 3px solid rgb(148, 138, 138);
+    padding: 50px;
+
+}
+
+h2 {
+    grid-column: span 3;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.col {
+    grid-column: span 2;
+}
+
+.col input {
+    width: 650px;
+}

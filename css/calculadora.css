@@ -26,7 +26,8 @@
     padding: 15px;
     border-radius: 35px;
 
-    box-shadow: 15px 10px 5px 5px rgb(44, 44, 44); /*recibe 4 argumentos es para la sombra, quinto argumento es el color*/
+    box-shadow: 15px 10px 5px 5px rgb(44, 44, 44);
+    /*recibe 4 argumentos es para la sombra, quinto argumento es el color*/
 }
 
 
@@ -37,9 +38,11 @@
     background: rgb(57, 102, 102);
     border-radius: 35px;
     text-align: right;
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 0px 10px rgb(44, 44, 44); 
-    
+    margin: 10px 10px 20px 10px;
+    box-shadow: 0px 0px 0px 10px rgb(44, 44, 44);
+    font-family: monospace;
+    font-size: 50px;
+
 
 }
 
@@ -48,24 +51,28 @@
 }
 
 button {
-    cursor: pointer; /*da un ountero al pasar por el boton*/
+    cursor: pointer;
+    /*da un ountero al pasar por el boton*/
     margin: 5px;
     border-radius: 32px;
     border: none;
     background: rgb(105, 148, 148);
     font-size: 25px;
-    box-shadow: 5px 5px 5px 5px rgb(44, 44, 44); 
+    box-shadow: 5px 5px 5px 5px rgb(44, 44, 44);
 }
 
-button:active{ /*Esto es pseudo clase usado para eventos una vez el boton este activo cambia de color es decir al presionar*/
+button:active {
+    /*Esto es pseudo clase usado para eventos una vez el boton este activo cambia de color es decir al presionar*/
     background: black;
 }
 
-*{ /*Etiqueta de estilo universal*/
+* {
+    /*Etiqueta de estilo universal*/
     color: white;
 }
 
 body {
     background: bisque;
+    display: grid;
+    place-items: center;
 }
-

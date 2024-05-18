@@ -3,46 +3,60 @@
     justify-content: center;
     align-items: center;
 }
-
-body {
-    background-color: antiquewhite;
+ 
+body{
+    background: #554b4b;
 }
-
-p:before {
+/*Con este elemento le digo a p epecificamente el type se muestre*/
+p:before{
     content: attr(type);
     display: block;
     margin: 3px 2px;
     font-size: 15px;
-    color: rgb(26, 22, 22);
+    color: #352e2e;
 }
-
+ 
 input {
-    width: 200px;
+    width: 300px;
     border: none;
-    border-bottom: 2px solid rgb(88, 48, 48);
+    border-bottom: 2px solid #bebed2;
     background: none;
 }
-
+ 
+/*Con esto cuando se pone encima del input se aclara la linea o del color que se necesita*/
 input:focus {
     outline: none;
-    border-bottom: 2px solid rgb(207, 192, 192);
+    border-bottom: 2px solid #78788c;
 }
-
+ 
 h2 {
     margin: 10px 2px;
     width: 180px;
-    color: rgb(59, 59, 59);
-    border-bottom: 3px solid rgb(49, 45, 45);
+    color: #414146;
+    border-bottom: 3px solid #78788c;
 }
-
+ 
 .form {
-   justify-content: center;
-width: 350px;
-height: 380px;
-background: rgb(163, 158, 158);
-border-radius: 10px;
-padding: 25px 50px;
-box-shadow: 0 0 40px 5px rgb(80, 78, 78);
-border: double 10px;
-}
+    width: 350px;
+    height: 380px;
+    background: rgb(163, 158, 158);
+    border-radius: 10px;
+    padding: 25px 35px;
+    box-shadow: 0 0 40px 5px rgb(7, 7, 7);
+    }
 
+    .boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background: rgb(139, 108, 100);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
